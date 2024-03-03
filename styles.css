@@ -19,16 +19,25 @@ body{
 }   
 
 
-.one{
+.header_logo{
     border: solid green 2px;
     margin: 0px;
-    display: flex;
-    
+    display: inline-block;
+
+    width:20%;
 }
-.two{
+
+.headerlink_container{
+    float: right;
+}
+
+.hlink{
     border: solid pink 2px;
     margin: 0px;
-    display: flex;
+    display: inline-block;
+
+    width:auto;
+    padding: 0px 10px;
     
 }
 
@@ -60,3 +69,4 @@ body{
    margin: 5px;
 
 }
+
